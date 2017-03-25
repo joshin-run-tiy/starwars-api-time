@@ -1,8 +1,7 @@
 window.onload = function Maxicom () {
 
   // const flowIs = 'flow/'
-  const url = `http://ckjacobson.com/maxicom/reports/flow/1.json`
-  // const url = 'http://ckjacobson.com/maxicom/reports/flow/1.json'
+  const url = `http://ckjacobson.com/maxicom/reports/flow/1.json`;
 
   $.ajax({
     url: url

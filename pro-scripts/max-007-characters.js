@@ -23,26 +23,5 @@ window.onload = function bondChar () {
       console.log('the name of the characters are:', data.name)
     }
     document.getElementById('p-output-box').innerHTML = str;
-    alert(str);
   })
 }
-
-// document.getElementById("letter-box").innerHTML = lettersGuessed.join("・");
-
-
-// 
-// var output = '';
-// for (var property in object) {
-//   output += property + ': ' + object[property]+'; ';
-// }
-// alert(output);
-
-
-
-//
-// Use native JSON.stringify method. Works with nested objects and all major browsers support this method.
-//
-// str = JSON.stringify(obj);
-// str = JSON.stringify(obj, null, 4); // (Optional) beautiful indented output.
-// console.log(str); // Logs output to dev tools console.
-// alert(str); // Displays output using window.alert()
