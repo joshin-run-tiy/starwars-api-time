@@ -18,3 +18,14 @@
 
 
 http://i.imgur.com/Fi4cKEj.png
+
+
+/*background-image: url("../images/Star-Wars-logo.jpeg");*/
+<img src="../images/Star-Wars-logo.jpeg" alt="Star Wars Logo" class="img-responsive">
+
+<!-- <div id="header-image">
+<p class="">Header</p>
+</div> -->
+<div class="col-md-12">
+  <p>Test</p>
+</div>

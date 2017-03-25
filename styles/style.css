@@ -1,11 +1,15 @@
+* {
+  border: 1px dashed blue;
+}
+
 body {
   background-color: #fff;
 }
 
-header {
-  width: 100%;
-  height: 500px;
-  background-color: yellow;
+.container-fluid-edit {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 #output-box {
@@ -14,6 +18,10 @@ header {
   background-color: #fff;
   border: 1px solid #000;
   font-size: 0.5em;
+}
+
+.star-background {
+  background-image: url(/../../../../stars-space.jpg);
 }
 
 p {
@@ -31,16 +39,29 @@ p {
   background-color: #fff;
 }
 
-#output {
-  width: 100%;
-  height: 200px;
-  background-color: lightgreen;
-}
-
 #episode_01 {
   width: 100%;
   height: 500px;
   background-color: midnightblue;
+}
+#white-zero {
+    background-image: url("/Users/joshholladay/pro/star-wars-films/images/luke-yoda-vader.png");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+}
+
+#white-one {
+    background-image: url("/Users/joshholladay/pro/star-wars-films/images/episodes/white-fades/episode1-the-phantom-menace-fade.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
 }
 
 #episode_02 {
@@ -48,31 +69,95 @@ p {
   height: 500px;
   background-color: slategray;
 }
+
+#white-two {
+    background-image: url("/Users/joshholladay/pro/star-wars-films/images/episodes/white-fades/episode2-attack-of-the-clones-fade.jpeg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+}
+
 #episode_03 {
   width: 100%;
   height: 500px;
   background-color: black;
 }
+
+#white-three {
+    background-image: url("/Users/joshholladay/pro/star-wars-films/images/episodes/white-fades/episode3-attack-of-the-clones-fade.jpeg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+}
+
 #episode_04 {
   width: 100%;
   height: 500px;
   background-color: powderblue;
 }
+
+#white-four {
+    background-image: url("/Users/joshholladay/pro/star-wars-films/images/episodes/white-fades/episode4-a-new-hope-fade.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+}
+
 #episode_05 {
   width: 100%;
   height: 500px;
   background-color: gray;
 }
+
+#white-five {
+    background-image: url("/Users/joshholladay/pro/star-wars-films/images/episodes/white-fades/episode5-the-empire-strikes-back-fade.png");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+}
+
 #episode_06 {
   width: 100%;
   height: 500px;
   background-color: purple;
 }
 
+#white-six {
+    background-image: url("/Users/joshholladay/pro/star-wars-films/images/episodes/white-fades/episode6-return-of-the-jedi-fade.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+}
+
 #episode_07 {
   width: 100%;
   height: 500px;
   background-color: limegreen;
+}
+
+#white-seven {
+    background-image: url("/Users/joshholladay/pro/star-wars-films/images/episodes/white-fades/episode7-the-force-awakens.png");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
 }
 
 #footer {
