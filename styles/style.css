@@ -1,9 +1,19 @@
-* {
+/** {
   border: 1px dashed blue;
-}
+}*/
 
 body {
   background-color: #fff;
+}
+
+.episode-row {
+  height: 400px;
+  max-width: 100%
+}
+
+.margin-padding {
+  margin: 0px auto;
+  padding: 0px;
 }
 
 .container-fluid-edit {
@@ -12,16 +22,32 @@ body {
   display: block;
 }
 
+.episode-container {
+  max-width: 100%;
+  height: auto
+}
+
+.star-text {
+  color: #fff;
+  font-family: monospace;
+}
+
 #output-box {
   height: 100px;
   width: 500px;
-  background-color: #fff;
-  border: 1px solid #000;
+  background-color: #000;
+  border: 1px solid #fff;
   font-size: 0.5em;
 }
 
+.text-background {
+  background-color: yellow;
+}
+
 .star-background {
-  background-image: url(/../../../../stars-space.jpg);
+  background-image: url(../images/stars-space.jpg);
+  height: auto;
+  max-width: 100%;
 }
 
 p {
@@ -31,6 +57,12 @@ p {
 .header {
   font-size: 2em;
   margin: 0px auto;
+}
+
+select {
+  color: #fff;
+  background-color: #000;
+  border: 1px thin #fff;
 }
 
 .white-space {
@@ -44,8 +76,19 @@ p {
   height: 500px;
   background-color: midnightblue;
 }
-#white-zero {
+
+#white-neg {
     background-image: url("/Users/joshholladay/pro/star-wars-films/images/luke-yoda-vader.png");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+}
+
+#white-zero {
+    background-image: url("/Users/joshholladay/pro/star-wars-films/images/Best-Star-Wars-Photos-1.jpeg");
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
