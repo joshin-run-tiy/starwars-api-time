@@ -13,15 +13,15 @@ window.onload = function starWarsFilms () {
       const resultsLength = results.length;
       const films = [];
 
-      for (let i = 0; i < resultsLength; i++) {
-        films.push(results[i].title)
-      }
-      str = JSON.stringify(films);
-      console.log('the films are: ', films);
-    }
-    else {
-      console.log('the film titles are:', data.title)
-    }
-    document.getElementById('p-output-box-zero').innerHTML = str;
-  })
+      // for (let i = 0; i < resultsLength; i++) {
+      //   characters.push(results[0].characters)
+      // }
+      str = JSON.stringify(results[0].opening_crawl);
+      // console.log('the films are: ', characters);
+    // }
+    // else {
+      console.log(results[0].opening_crawl)
+    // }
+      document.getElementById('p-output-box-one').innerHTML = str;
+  }
 }

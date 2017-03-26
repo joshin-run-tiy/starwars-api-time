@@ -22,6 +22,6 @@ window.onload = function starWarsFilms () {
     else {
       console.log('the film titles are:', data.title)
     }
-    document.getElementById('p-output-box-zero').innerHTML = str;
+    document.getElementById('p-output-box-four').innerHTML = str;
   })
 }
