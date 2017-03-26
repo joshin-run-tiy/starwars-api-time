@@ -6,6 +6,12 @@ body {
   background-color: #fff;
 }
 
+.header-background {
+  background-image: url(../images/Star-Wars-logo.jpeg);
+  height: auto;
+  max-width: 100%;
+}
+
 .episode-row {
   height: 400px;
   max-width: 100%
