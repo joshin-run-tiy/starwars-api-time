@@ -69,7 +69,7 @@ window.onload = function starWarsFilms () {
 
       document.getElementById("eps1-btn-story").addEventListener("click", epsOneStory);
       function epsOneStory() {
-      document.getElementById("p-output-box-one").innerHTML = epsStoryBtnOne;
+      document.getElementById("p-output-box-one").innerHTML = episode1;
     }
 
       document.getElementById("eps1-btn-date").addEventListener("click", epsOneDate);
