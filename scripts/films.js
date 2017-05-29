@@ -6,11 +6,11 @@ window.onload = function starWarsFilms () {
   $.ajax({
     url: url
   }).done(function(data) {
-    console.log('The returned object is:', data)
+    // console.log('The returned object is:', data)
 
     if ( whichFilm === 'films/') {
       const results = data.results;
-      console.log('new results objects from data.results: ', results);
+      // console.log('new results objects from data.results: ', results);
       const resultsLength = results.length;
       const films = [];
 
