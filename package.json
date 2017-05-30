@@ -1,0 +1,24 @@
+{
+  "name": "star-wars-films",
+  "version": "1.0.0",
+  "description": "Due to the technology used in this project, GitHub Pages may or may not represent it's current state based on the code base.",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.6",
+    "tether": "^1.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshin-run/star-wars-films.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshin-run/star-wars-films/issues"
+  },
+  "homepage": "https://github.com/joshin-run/star-wars-films#readme"
+}
