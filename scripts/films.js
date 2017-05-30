@@ -1,7 +1,7 @@
 window.onload = function starWarsFilms () {
 
   const whichFilm = 'films/'
-  const url = 'https://swapi.co/api/' + whichFilm;
+  const url = 'https//swapi.co/api/' + whichFilm;
 
   $.ajax({
     url: url

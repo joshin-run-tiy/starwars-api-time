@@ -1,7 +1,7 @@
 window.onload = function gettinSwapiWithIt () {
 
   const whoIs = 'people/'
-  const url = 'http://swapi.co/api/' + whoIs
+  const url = 'https://swapi.co/api/' + whoIs
 
   $.ajax({
     url: url
