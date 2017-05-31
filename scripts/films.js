@@ -10,7 +10,7 @@ window.onload = function starWarsFilms () {
 
     if ( whichFilm === 'films/') {
       const results = data.results;
-      // console.log('new results objects from data.results: ', results);
+      console.log('new results objects from data.results: ', results);
       const resultsLength = results.length;
       const films = [];
 
@@ -25,31 +25,18 @@ window.onload = function starWarsFilms () {
       let ep5 = results[5].title;
       let ep6 = results[4].title;
       let ep7 = results[6].title;
-
-      document.getElementById('p-output-box-zero-ep1').innerHTML = "EPISODE I: " + ep1.toUpperCase();
-      document.getElementById('p-output-box-zero-ep2').innerHTML = "EPISODE II: " + ep2.toUpperCase();
-      document.getElementById('p-output-box-zero-ep3').innerHTML = "EPISODE III: " + ep3.toUpperCase();
-      document.getElementById('p-output-box-zero-ep4').innerHTML = "EPISODE IV: " + ep4.toUpperCase();
-      document.getElementById('p-output-box-zero-ep5').innerHTML = "EPISODE V: " + ep5.toUpperCase();
-      document.getElementById('p-output-box-zero-ep6').innerHTML = "EPISODE VI: " + ep6.toUpperCase();
-      document.getElementById('p-output-box-zero-ep7').innerHTML = "EPISODE VII: " + ep7.toUpperCase();
+      console.log(ep1, ep2, ep3, ep4, ep5, ep6, ep7);
 
       //episodes
 
       let episode1 = results[2].opening_crawl;
-      document.getElementById('p-output-box-one').innerHTML = episode1;
       let episode2 = results[1].opening_crawl;
-      document.getElementById('p-output-box-two').innerHTML = episode2;
       let episode3 = results[3].opening_crawl;
-      document.getElementById('p-output-box-three').innerHTML = episode3;
       let episode4 = results[0].opening_crawl;
-      document.getElementById('p-output-box-four').innerHTML = episode4;
       let episode5 = results[5].opening_crawl;
-      document.getElementById('p-output-box-five').innerHTML = episode5;
       let episode6 = results[4].opening_crawl;
-      document.getElementById('p-output-box-six').innerHTML = episode6;
       let episode7 = results[6].opening_crawl;
-      document.getElementById('p-output-box-seven').innerHTML = episode7;
+      console.log(episode1, episode2, episode3, episode4, episode5, episode6, episode7);
 
       let ep1Date = results[2].release_date;
       let ep2Date = results[1].release_date;
@@ -58,94 +45,8 @@ window.onload = function starWarsFilms () {
       let ep5Date = results[5].release_date;
       let ep6Date = results[4].release_date;
       let ep7Date = results[6].release_date;
+      console.log(ep1Date, ep2Date, ep3Date, ep4Date, ep5Date, ep6Date, ep7Date);
 
-      let epsStoryBtnOne = episode1;
-      let epsStoryBtnTwo = episode2;
-      let epsStoryBtnThree = episode3;
-      let epsStoryBtnFour = episode4;
-      let epsStoryBtnFive = episode5;
-      let epsStoryBtnSix = episode6;
-      let epsStoryBtnSeven = episode7;
-
-      document.getElementById("eps1-btn-story").addEventListener("click", epsOneStory);
-      function epsOneStory() {
-      document.getElementById("p-output-box-one").innerHTML = episode1;
-    }
-
-      document.getElementById("eps1-btn-date").addEventListener("click", epsOneDate);
-      function epsOneDate() {
-      document.getElementById("p-output-box-one").innerHTML = ep1Date;
-    }
-
-
-      document.getElementById("eps2-btn-story").addEventListener("click", epsTwoStory);
-      function epsTwoStory() {
-      document.getElementById("p-output-box-two").innerHTML = epsStoryBtnTwo;
-      }
-
-      document.getElementById("eps2-btn-date").addEventListener("click", epsTwoDate);
-      function epsTwoDate() {
-      document.getElementById("p-output-box-two").innerHTML = ep2Date;
-    }
-
-
-
-      document.getElementById("eps3-btn-story").addEventListener("click", epsThreeStory);
-      function epsThreeStory() {
-      document.getElementById("p-output-box-three").innerHTML = epsStoryBtnThree;
-    }
-
-      document.getElementById("eps3-btn-date").addEventListener("click", epsThreeDate);
-      function epsThreeDate() {
-      document.getElementById("p-output-box-three").innerHTML = ep3Date;
-    }
-
-
-
-      document.getElementById("eps4-btn-story").addEventListener("click", epsFourStory);
-      function epsFourStory() {
-      document.getElementById("p-output-box-four").innerHTML = epsStoryBtnFour;
-    }
-
-      document.getElementById("eps4-btn-date").addEventListener("click", epsFourDate);
-      function epsFourDate() {
-      document.getElementById("p-output-box-four").innerHTML = ep4Date;
-    }
-
-
-      document.getElementById("eps5-btn-story").addEventListener("click", epsFiveStory);
-      function epsFiveStory() {
-      document.getElementById("p-output-box-five").innerHTML = epsStoryBtnFive;
-    }
-
-
-      document.getElementById("eps5-btn-date").addEventListener("click", epsFiveDate);
-      function epsFiveDate() {
-      document.getElementById("p-output-box-five").innerHTML = ep5Date;
-    }
-
-
-
-      document.getElementById("eps6-btn-story").addEventListener("click", epsSixStory);
-      function epsSixStory() {
-      document.getElementById("p-output-box-six").innerHTML = epsStoryBtnSix;
-      }
-
-      document.getElementById("eps6-btn-date").addEventListener("click", epsSixDate);
-      function epsSixDate() {
-      document.getElementById("p-output-box-six").innerHTML = ep6Date;
-    }
-
-
-      document.getElementById("eps7-btn-story").addEventListener("click", epsSevenStory);
-      function epsSevenStory() {
-      document.getElementById("p-output-box-seven").innerHTML = epsStoryBtnSeven;
-    }
-
-      document.getElementById("eps7-btn-date").addEventListener("click", epsSevenDate);
-      function epsSevenDate() {
-      document.getElementById("p-output-box-seven").innerHTML = ep7Date;
-    }
   } else {
     console.log('no data was returned')
   }
