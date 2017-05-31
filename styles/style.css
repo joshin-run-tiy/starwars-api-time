@@ -79,7 +79,7 @@ p {
 select {
   color: #fff;
   background-color: #000;
-  border: 1px thin #fff;
+  border: 1px solid #fff;
 }
 
 .white-space {
