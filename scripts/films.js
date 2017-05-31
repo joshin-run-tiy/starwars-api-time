@@ -38,6 +38,8 @@ window.onload = function starWarsFilms () {
       let episode7 = results[6].opening_crawl;
       console.log(episode1, episode2, episode3, episode4, episode5, episode6, episode7);
 
+      //release date
+
       let ep1Date = results[2].release_date;
       let ep2Date = results[1].release_date;
       let ep3Date = results[3].release_date;
